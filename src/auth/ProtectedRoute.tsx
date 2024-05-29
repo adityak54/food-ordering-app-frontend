@@ -6,6 +6,7 @@ const ProtectedRoute = () => {
   const { isAuthenticated, isLoading } = useAuth0();
 
   if (isLoading) {
+    // TODO : add loading spinner
     return null;
   }
 
